@@ -1,8 +1,7 @@
 import React from "react";
-import SplineViewer from "./SplineViewer";
-
+import View from "./View";
 function App() {
-  return <SplineViewer />;
+  return <View />;
 }
 
 export default App;

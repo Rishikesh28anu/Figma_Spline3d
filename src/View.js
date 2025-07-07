@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { Application } from "@splinetool/runtime";
 
-export default function SplineViewer() {
+export default function View() {
   const canvasRef = useRef(null);
 
   useEffect(() => {
